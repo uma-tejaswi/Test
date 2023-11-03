@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Applications">
+	
+  <test thread-count="5" name="e-Commerce">
+    <classes>
+      <class name="TestNG.AllWebsites"/>
+      <class name="TestNG.DemoTest"/>
+      <class name="TestNG.DriversClass"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test thread-count="5" name="Demo">
+    <classes>
+      <class name="TestNG.NewTest"/>
+      <class name="TestNG.AllWebsites"/>
+      <class name="TestNG.Checkout"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+</suite> <!-- Suite -->
