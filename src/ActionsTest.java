@@ -8,7 +8,7 @@ public class ActionsTest {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-
+//Chrome Driver
 System.setProperty("webdriver.chrome.driver","C:\\Users\\ADMIN\\Documents\\drivers\\chromedriver.exe");
 		
 		//Invoke the browser
